@@ -2,9 +2,10 @@ var lang_selected = 0;
 var lang_list = ["English", "Simplified", "Traditional"];
 
 function ChangeLang() {
-	var english = document.getElementsByClassName("English");
-	var simplified = document.getElementsByClassName("Simplified");
-	var traditional = document.getElementsByClassName("Traditional");
+	var page = parent.document
+	var english = page.getElementsByClassName("English");
+	var simplified = page.getElementsByClassName("Simplified");
+	var traditional = page.getElementsByClassName("Traditional");
 
 	lang_selected = (lang_selected + 1) % lang_list.length;
 
