@@ -46,6 +46,14 @@ p {
 	font-size: 23px;
 }
 
+.Simplified {
+	display:none;
+}
+
+.Traditional {
+	display:none;
+}
+
 .container table img{
 	width:100px;
 }
