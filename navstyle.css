@@ -14,13 +14,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 .group:after {
-	clear: both;
+	clear: bpoth;
 }
 
 /*CLEARFLOATS OF CHILDREN*/
 
 body {
-	background-image: url("Images/background.jpg");
+	#background-image: url("Images/background.jpg");
 	font: normal Arial,Helvetica, san-sarif;
 	Line-height:1.3em;
 	margin:0;
@@ -56,7 +56,7 @@ p {
 #navbar{
 	background-color:#E5C100;
 	height: 50px;
-	position: fixed;
+	position: relative;
 	z-index:19999;
 	width:100%;
 	top: 0;
