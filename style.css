@@ -163,7 +163,7 @@ a.active {
 	display: block;
 	position: fixed;
 	top: 0;
-	z-index: 19999;
+	#z-index: 19999;
 }
 
 .dropdown-content {
