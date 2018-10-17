@@ -183,22 +183,6 @@ a.active {
     display: block;
 }
 
-#showcase{
-	background-image:url('Images/main.jpg');
-	background-position:center right;
-	min-height:300px;
-	margin-bottom:30px;
-	text-align:center;
-	margin-top: 50px;
-}
-
-#showcase h1{
-	color: #FFD700;
-	font-size:50px;
-	Line-height: 1.6em;
-	padding-top: 30px;
-}
-
 #main{
 	float:left:
 	pading 0 30px;
